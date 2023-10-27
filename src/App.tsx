@@ -3,6 +3,8 @@
 import './App.css'
 import { NavBar } from './components'
 import { Home } from './pages/Home'
+import { LayoutContainer } from './styled-components'
+
 
 function App() {
  
@@ -10,7 +12,10 @@ function App() {
   return (
 <>
     <NavBar/>
-    <Home/>
+    <LayoutContainer>
+      <Home/>
+    </LayoutContainer>
+    
 
 </>
     
@@ -19,7 +24,9 @@ function App() {
 
 export default App
 
-// https://www.youtube.com/watch?v=p9PAmqpCWgA  45:00
+// https://www.youtube.com/watch?v=p9PAmqpCWgA  1:14:00
+
+// https://mui.com/material-ui/getting-started/
 
 // CTRL + . ES PARA Q SE DESPLEGUE OPCIONES DE IMPORTAR
 
